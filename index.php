@@ -5,8 +5,22 @@
     </head>
     <body>
         <div>
+            <h1> Assignments</h1>
+            <div>
+                <a href="/Assignments/1">Assignment 1</a>
+            </div>
+            
+            <div>
+                <a href="/Assignments/2">Assignment 2</a>
+            </div>
+            
+            <hr>
+            
             <h1>Labs</h1>
-            <a href="/Labs/1">Lab 1</a>
+            <div>
+                <a href="/Labs/1">Lab 1</a>
+            </div>
+            
         </div>
     </body>
 </html>
