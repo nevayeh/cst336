@@ -54,7 +54,7 @@ main {
 }
 
 #me, #welcomeText {
-    float: left;
+    float: right;
 }
 
 #welcomeText {

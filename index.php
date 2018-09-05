@@ -14,6 +14,8 @@
                 <a href="/Assignments/2">Assignment 2</a>
             </div>
             
+            <br />
+            
             <hr>
             
             <h1>Labs</h1>
