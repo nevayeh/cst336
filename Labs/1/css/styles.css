@@ -54,7 +54,7 @@ main {
 }
 
 #me, #welcomeText {
-    float: right;
+    float: left;
 }
 
 #welcomeText {
@@ -68,6 +68,10 @@ footer {
 
 #csumbLogo, #footerContent {
     float: left;
+}
+
+#footerContent {
+    padding: 35px 0px;
 }
 
 table {
@@ -97,10 +101,6 @@ td strong {
 ul {
     text-align: left;
     padding-left: 200px;
-}
-
-.navList {
-    display: inline;
 }
 
 .hobby {
