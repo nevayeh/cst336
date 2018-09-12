@@ -6,7 +6,7 @@
     <body>
         This is assignment 2
         <div>
-            <a href="/">Back</a>
+            <a href="./../../">Back</a>
         </div>
     </body>
 </html>
