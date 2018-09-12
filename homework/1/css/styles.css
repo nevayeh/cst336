@@ -1,0 +1,112 @@
+header {
+    background-color: royalblue;
+    color: white;
+    text-align: center;
+    padding: 8px;
+}
+
+body {
+    background-color: steelblue;
+    font-family: Arial;
+    margin: 0;
+}
+
+p {
+    font-size: 20px;
+    margin: 50px;
+}
+
+div {
+    overflow: auto;
+}
+
+h1 {
+    font-size: 40px;
+}
+
+h3 {
+    text-align:center
+}
+
+.nav {
+    background-color: rgb(51, 51, 51);
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+.navLi {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: white;
+    padding: 16px 40px;
+    text-align: center;
+    text-decoration: none;
+}
+
+li a:hover {
+    background-color: white;
+    color: black;
+    transition-duration: 0.3s;
+}
+
+.active {
+    background-color: rgb(84, 84, 84);
+}
+
+.imageP {
+    border:10px white solid;
+    margin: 15px;
+}
+
+#rolesDescriptionPTop {
+    font-size: 24px;
+    margin-bottom: 0px;
+}
+
+#rolesDescriptionPBottom {
+    font-size: 18px;
+    margin-top: 0px;
+}
+
+#rolesList {
+    margin: 10px 50px 10px 5em; /* top right bottom left */
+    list-style-type: circle;
+    font-size: 20px;
+}
+
+.rolesHeaderNames {
+    margin-left: 50px;
+}
+
+.roleDescription {
+    margin-top: 10px;
+}
+
+#animatorImage {
+    width: 300px;
+}
+
+#supplyChainImg {
+    display: block;
+    margin: 30px auto 20px auto;
+    height: 200px;
+    border: 10px white solid;
+}
+
+#resourcesList li {
+    background-color: black;
+    list-style-type: none;
+}
+
+.resourceLink {
+    background-color: rgb(124, 175, 243);
+}
+
+#resourcesFieldset {
+    margin: 30px 15em;
+}

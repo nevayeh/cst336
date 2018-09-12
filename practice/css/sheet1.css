@@ -1,0 +1,20 @@
+img {
+    margin: 100px;
+}
+
+.highlighted {
+    background-color: yellow;
+}
+
+#first {
+    background-color: blue;
+}
+
+.highlighted {
+    background-color: green;
+    color:white;
+}
+
+.highlighted {
+    background-color: red;
+}

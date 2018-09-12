@@ -1,0 +1,35 @@
+ #banner {
+    background-color:darkblue;
+    color: white;
+    padding: 25px;
+    font-weight: bold;
+ }
+
+ #description {
+     font-size: 25px;
+ }
+ 
+ #degreeTitle {
+     font-size: 40px;
+ }
+ 
+ #minorTitle {
+     font-size: 40px;
+ }
+ 
+.column {
+    float: left;
+}
+
+.row{
+    width:100%;
+}
+
+#minors {
+    
+    clear:left;
+}
+
+footer {
+    text-align: center;
+}
