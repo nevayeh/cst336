@@ -48,7 +48,7 @@
             
         }
         
-        echo "Total: $totalSum <br/>";
+        echo "<br/> Total: $totalSum <br/>";
         
         $average = $totalSum / $numberAmount;
         $average = number_format ($average, 2); 
