@@ -36,7 +36,7 @@
         {
             $evenNum;
             
-            $n = rand(1, 10); /* both insluvie */
+            $n = rand(1, 10); /* both insluvie */ /* inclusive LOL */
             // $toalSum += $n;
             $totalSum = $totalSum + $n;
             echo "$n ";
