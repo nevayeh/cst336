@@ -8,7 +8,6 @@ include "inc/functions.php";
         <title>Random Museum</title>
         <meta charset="utf-8"/>
         <link href="css/styles.css" rel="stylesheet" type="text/css" />
-        <!-- @import url("css/styles.css"); -->
     </head>
     <body>
         <header>

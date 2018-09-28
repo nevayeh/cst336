@@ -25,6 +25,10 @@
                 <a href="./homework/1">Homework 1</a>
             </div>
             
+            <div>
+                <a href="./homework/2">Homework 2</a>
+            </div>
+            
             <hr>
             
             <br/>
