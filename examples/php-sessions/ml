@@ -1,0 +1,14 @@
+corrent(Couu
+
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Sessions</title>
+    </head>
+    <body>
+        <div>
+            count <?php echo $currentCount; ?>
+        </div>
+    </body>
+</html>
+

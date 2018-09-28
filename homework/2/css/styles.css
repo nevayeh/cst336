@@ -1,0 +1,79 @@
+/*body*/
+/*{*/
+/*    background-color: steelblue;*/
+/*}*/
+
+/*header*/
+/*{*/
+/*    background-color: darkgrey;*/
+/*}*/
+
+header, footer {
+    /*background-color: royalblue;*/
+    background-color: rgb(51, 51, 51);
+    color: white;
+    text-align: center;
+    padding: 8px;
+}
+
+body {
+    /*background-color: steelblue;*/
+    background-image: url("../img/museumbackground.png"), radial-gradient(transparent, black);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    font-family: Arial;
+    margin: 0;
+}
+
+img
+{
+    float: left;
+    width: 50%;
+}
+
+p
+{
+    /*background-color: black;*/
+    color: white;
+    font-size: 20px;
+    text-align: center;
+    vertical-align: middle;
+}
+
+/*div{background-color: blue;}*/
+
+footer
+{
+    clear: left;
+}
+
+/*img*/
+/*{*/
+/*    border: 5px blue solid;*/
+/*    padding: 25px 0;*/
+    /*margin: auto;*/
+/*}*/
+
+/*#musicStaff*/
+/*{*/
+/*    display: block;*/
+/*    margin-left: auto;*/
+/*    margin-right: auto;*/
+/*    width: 50%;*/
+/*}*/
+
+/*.parent {*/
+/*  position: relative;*/
+/*  top: 0;*/
+/*  left: 0;*/
+/*}*/
+/*.image1 {*/
+/*  position: relative;*/
+/*  top: 0;*/
+/*  left: 0;*/
+/*}*/
+/*.image2 {*/
+/*  position: absolute;*/
+/*  top: 30px;*/
+/*  left: 70px;*/
+/*}*/
