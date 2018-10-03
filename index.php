@@ -40,6 +40,9 @@
             <div>
                 <a href="./labs/2">Lab 2</a>
             </div>
+            <div>
+                <a href="./labs/4">Lab 4</a>
+            </div>
             
         </div>
     </body>
