@@ -43,7 +43,7 @@
                 </div>
                 
                 <div>
-                    <a href="https://cst336-nevayeh-lab3.herokuapp.com/">Lab3</a>
+                    <a href="https://cst336-nevayeh-lab3.herokuapp.com/">Lab 3</a>
                 </div>
                 
                 <div>
