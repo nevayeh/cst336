@@ -34,16 +34,22 @@
             <br/>
             
             <h1>Labs</h1>
-            <div>
-                <a href="./labs/1">Lab 1</a>
-            </div>
-            <div>
-                <a href="./labs/2">Lab 2</a>
-            </div>
-            <div>
-                <a href="./labs/4">Lab 4</a>
-            </div>
-            
+                <div>
+                    <a href="./labs/1">Lab 1</a>
+                </div>
+                
+                <div>
+                    <a href="./labs/2">Lab 2</a>
+                </div>
+                
+                <div>
+                    <a href="https://cst336-nevayeh-lab3.herokuapp.com/">Lab3</a>
+                </div>
+                
+                <div>
+                    <a href="./labs/4">Lab 4</a>
+                </div>
+
         </div>
     </body>
 </html>
