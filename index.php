@@ -29,6 +29,12 @@
                 <a href="./homework/2">Homework 2</a>
             </div>
             
+             <div>
+                <a href="./homework/3">Homework 3</a>
+            </div>
+            
+            <br/><br/>
+            
             <hr>
             
             <br/>
@@ -48,6 +54,10 @@
                 
                 <div>
                     <a href="./labs/4">Lab 4</a>
+                </div>
+                
+                <div>
+                    <a href="./labs/5">Lab 5</a>
                 </div>
 
         </div>
