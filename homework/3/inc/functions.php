@@ -5,7 +5,6 @@ session_start();
 $_SESSION['numClasses'];
 $_SESSION['totalUnits'];
 $_SESSION['totalGradePoints'];
-$_SESSION['calculate'] = 0;
 
 function displayForm()
 {
@@ -107,7 +106,7 @@ function validateForm()
         //If not all three required fields are set
         else
         {
-            echo '<br>';
+            echo '<br><div id="errorDiv">';
             echo '<span class="error-message">You are missing the following: <br/>';
             echo '&nbsp;&nbsp;&nbsp;&nbsp *Class ' . ($l+1) . ': ';
             
@@ -127,7 +126,7 @@ function validateForm()
                 echo "Grade";
             }
             
-            echo "</span>";
+            echo "</span></div>";
         }
         
     }

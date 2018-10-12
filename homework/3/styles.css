@@ -27,7 +27,6 @@ body
 {
     padding: 50px;
     background-color: RGB(50, 125, 255);
-    /*outline: 10px green solid;*/
 }
 
 form
@@ -56,6 +55,11 @@ form
     margin: 0px 0px 0px 10px;
 }
 
+.button
+{
+    padding: 5px;
+}
+
 .error-message
 {
     color: white;
@@ -73,4 +77,5 @@ form
     color: white;
     text-align: center;
     margin: auto;
+    padding: 10px;
 }

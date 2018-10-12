@@ -46,15 +46,11 @@
         
         <h1 class="header">What's Your GPA?</h1>
         
-        <!--<br/><br/>-->
-        
         <div id="formDiv">
         <?php
             displayForm();
         ?>
         </div>
-        
-        <!--<br/><br/>-->
         
         <div id="footer">
             This GPA calculator is meant only to be a helpful tool. <br>
