@@ -1,0 +1,76 @@
+body
+{
+    background-color: RGB(0, 125, 255);
+    color: white;
+}
+
+.header
+{
+    background-color: RGB(12, 12, 12);
+    color: white;
+    text-align: center;
+    margin: auto;
+    padding: 20px 0px;
+}
+
+#footer
+{
+    background-color: RGB(12, 12, 12);
+    color: white;
+    margin: auto;
+    text-align: center;
+    padding: 10px;
+    font-size: 12px;
+}
+
+#formDiv
+{
+    padding: 50px;
+    background-color: RGB(50, 125, 255);
+    /*outline: 10px green solid;*/
+}
+
+form
+{
+    text-align: center;
+    
+}
+
+#formLegend
+{
+    text-align: center;
+}
+
+.unitInput
+{
+    width: 50px;
+}
+
+.radioButton
+{
+    margin: 0px 10px;
+}
+
+.newSectionLabel
+{
+    margin: 0px 0px 0px 10px;
+}
+
+.error-message
+{
+    color: white;
+}
+
+#errorDiv
+{
+    background-color: RGB(165, 160, 160);
+    color: black;
+}
+
+#gpaResult
+{
+    background-color: RGB(8, 120, 140);
+    color: white;
+    text-align: center;
+    margin: auto;
+}
