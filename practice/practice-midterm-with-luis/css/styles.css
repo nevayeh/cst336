@@ -1,0 +1,61 @@
+body
+{
+    background-color: RGB(150, 180, 320);
+    text-align: center;
+}
+
+.errorMessage
+{
+    color: red;
+}
+
+table
+{
+    border-collapse: collapse;
+}
+
+table, td
+{
+    border: 1px solid black;
+    padding: 20px 60px;
+    background-color: white;
+    /*padding: 20px 30px;*/
+}
+
+th
+{
+    background-color: RGB(212, 212, 212);
+    padding: 20px 0px;
+}
+
+.letter
+{
+    font-weight: bold;    
+}
+
+.rightLetter
+{
+    font-weight: bold;
+    color: green;
+}
+
+.wrongLetter
+{
+    font-weight: bold;
+    color: red;
+}
+
+.redLetter
+{
+    color: red;
+}
+
+.greenLetter
+{
+    color: green;
+}
+
+.blueLetter
+{
+    color: blue;   
+}

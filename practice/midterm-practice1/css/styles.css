@@ -1,0 +1,32 @@
+body
+{
+    text-align: center;    
+}
+
+#header
+{
+    background-color: RGB(212, 212, 212);
+    color: white;
+    padding: 20px 0px;
+}
+
+.errorMessage
+{
+    color: red;
+}
+
+table
+{
+    border-collapse: collapse;
+}
+
+table, td
+{
+    border: 1px solid black;
+    padding: 40px 75px;
+}
+
+th
+{
+    padding: 20px 0px;
+}

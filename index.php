@@ -35,7 +35,7 @@
             
             <br/><br/>
             
-            <hr>
+        <hr>
             
             <br/>
             
@@ -59,6 +59,19 @@
                 <div>
                     <a href="./labs/5">Lab 5</a>
                 </div>
+                
+                <br/><br/>
+
+          <hr>
+            
+            <br/>
+            
+            <h1>Practice Midterm</h1>
+                <div>
+                    <a href="./practice/practice-midterm-with-luis/index.php">Letter Search</a>
+                </div>
+                
+
 
         </div>
     </body>
