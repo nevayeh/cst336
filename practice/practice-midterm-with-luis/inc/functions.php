@@ -103,6 +103,7 @@ function displayTable($tableSize, $find, $omit, $viewType)
     }
     
     echo "</table>";
+    echo "<br/><br/>";
 }
 
 function getRandomNumber(&$found, $find, $omit, $tableCounter, $tableTotalSize)

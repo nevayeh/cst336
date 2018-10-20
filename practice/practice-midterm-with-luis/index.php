@@ -7,10 +7,12 @@ include "./inc/functions.php";
 <!DOCTYPE html>
 <html>
     <head>
-        <title>Find The Letter</title>
+        <title>Letter Search</title>
         <link rel="stylesheet" type="text/css" href="css/styles.css">
     </head>
     <body>
+
+        <h1>Find the Letter</h1>
 
         <form method="post">
             
