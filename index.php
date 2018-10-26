@@ -47,7 +47,7 @@
                 <div>
                     <a href="./labs/2">Lab 2: Slot Machine</a>
                 </div>
-                
+                 
                 <div>
                     <a href="https://cst336-nevayeh-lab3.herokuapp.com/">Lab 3: SilverJack</a>
                 </div>
