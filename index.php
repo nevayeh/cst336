@@ -61,7 +61,7 @@
                 </div>
         
                 <div>
-                    <a href="./labs/6">Lab 6: Meme Generator (WIP)</a>
+                    <a href="./labs/6/welcome.php">Lab 6: Meme Generator</a>
                 </div>
                 
                 <br/><br/>

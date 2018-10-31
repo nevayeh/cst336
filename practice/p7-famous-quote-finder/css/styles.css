@@ -1,0 +1,17 @@
+body
+{
+    text-align: center;
+}
+
+#header
+{
+    background-color: lightgray;
+    padding: 50px;
+    /*text-align: center;*/
+    margin: 0px;
+}
+
+#quoteKeyText
+{
+    /*width: 200px;*/
+}
