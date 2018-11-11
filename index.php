@@ -64,6 +64,10 @@
                     <a href="./labs/6/welcome.php">Lab 6: Meme Generator</a>
                 </div>
                 
+                <div>
+                    <a href="./labs/7">Lab 7: Meme Lab (Part 2) (Now with Editing and Deleting!)</a>
+                </div>
+                
                 <br/><br/>
 
           <hr>
