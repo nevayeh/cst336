@@ -33,7 +33,11 @@ if (isset($_POST['line1']) && isset($_POST['line2'])) {
           <!--<option value="coding">Learning to Code</option>-->
           <!--<option value="old-class">Old Classroom</option>-->
           
-          <?php generateOptions(); ?>
+          
+          <?php
+            $selectedType = "";
+            generateOptions($selectedType);
+          ?>
           
         </select>
 
