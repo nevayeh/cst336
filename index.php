@@ -65,7 +65,7 @@
                 </div>
                 
                 <div>
-                    <a href="./labs/7">Lab 7: Meme Lab (Part 2) (Now with Editing and Deleting!)</a>
+                    <a href="./labs/7">Lab 7: Meme Generator (Now with Editing and Deleting!)</a>
                 </div>
                 
                 <br/><br/>
