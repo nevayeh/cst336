@@ -39,16 +39,20 @@ function searchForMemes($userID = '') {
       //$sql .= " AND meme_type = '{$_POST['meme-type-search']}'"; 
     //}
     
-    if(isset($_POST['meme-type']) && !empty($_POST['meme-type'])) {
+    if(isset($_POST['meme-type']) && !empty($_POST['meme-type']))
+    {
       $sql .= " AND meme_type = '{$_POST['meme-type']}'"; 
     }
     
-    if(isset($_POST['order-by-date'])) {
+    if(isset($_POST['order-by-date']))
+    {
       $sql .= " ORDER BY create_date"; 
-      
-      if ($_POST['order-by-date'] == 'newest-first') {
+    
+      if ($_POST['order-by-date'] == 'newest-first')
+      {
         $sql .= " DESC"; 
       }
+    }
     
     $statement = $dbConn->prepare($sql); 
     $statement->execute(); 
@@ -82,6 +86,7 @@ function searchForMemes($userID = '') {
     
     return $records; 
 } 
+
 function displayMemes($records, $editable=false) {
   echo '<div class="memes-container">'; 
     
