@@ -66,7 +66,7 @@ function pickWord()
     selectedWord = words[randomInt].word.toUpperCase(); //uppercase letters
     selectedHint = words[randomInt].hint;
     
-    console.log("WORD: " + selectedWord);
+    //console.log("WORD: " + selectedWord);
 }
 
 //Updates the board accordingly to what has been guessed or not guessed
