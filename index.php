@@ -68,6 +68,10 @@
                     <a href="./labs/7">Lab 7: Meme Generator (Now with Users, Editing, and Deleting!)</a>
                 </div>
                 
+                <div>
+                    <a href="./labs/8">Lab 8: Hangman</a>
+                </div>
+                
                 <br/><br/>
 
           <hr>

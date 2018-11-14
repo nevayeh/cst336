@@ -1,0 +1,48 @@
+#won, #lost, #guessedWordsDiv
+{
+    display: none;
+}
+
+#word, #letters
+{
+    padding: 20px 0px;
+}
+
+#man
+{
+    margin: 20px auto;
+    width: 500px;
+    height: 500px;
+    border: solid;
+    border-radius: 5px;
+    border-width: 1px;
+}
+
+#word
+{
+    font-size: 1.8em;    
+}
+
+.hint
+{
+    font-size: 0.6em !important;
+}
+
+.btn
+{
+    padding: 7px 7px !important;
+    margin: 0px 2px;
+}
+
+.letter
+{
+    height: 34px;
+    width: 25px;
+    /*padding: 7px 4px !important;*/
+    margin: 0px 2px;
+}
+
+#hintButton
+{
+    width: 200px;
+}
