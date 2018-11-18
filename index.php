@@ -22,15 +22,15 @@
             
             <h1>Homework</h1>
             <div>
-                <a href="./homework/1">Homework 1: HTML and CSS</a>
+                <a href="./homework/1" target="_blank">Homework 1: HTML and CSS</a>
             </div>
             
             <div>
-                <a href="./homework/2">Homework 2: Something Interesting with PHP</a>
+                <a href="./homework/2" target="_blank">Homework 2: Something Interesting with PHP</a>
             </div>
             
              <div>
-                <a href="./homework/3">Homework 3: HTML Forms and PHP</a>
+                <a href="./homework/3" target="_blank">Homework 3: HTML Forms and PHP</a>
             </div>
             
             <br/><br/>
@@ -41,35 +41,35 @@
             
             <h1>Labs</h1>
                 <div>
-                    <a href="./labs/1">Lab 1: Personal Portfolio</a>
+                    <a href="./labs/1" target="_blank">Lab 1: Personal Portfolio</a>
                 </div>
                 
                 <div>
-                    <a href="./labs/2">Lab 2: Slot Machine</a>
+                    <a href="./labs/2" target="_blank">Lab 2: Slot Machine</a>
                 </div>
                  
                 <div>
-                    <a href="https://cst336-nevayeh-lab3.herokuapp.com/">Lab 3: SilverJack</a>
+                    <a href="https://cst336-nevayeh-lab3.herokuapp.com/" target="_blank">Lab 3: SilverJack</a>
                 </div>
                 
                 <div>
-                    <a href="./labs/4">Lab 4: Image Carousel</a>
+                    <a href="./labs/4" target="_blank">Lab 4: Image Carousel</a>
                 </div>
                 
                 <div>
-                    <a href="./labs/5">Lab 5: Shopping Cart</a>
+                    <a href="./labs/5" target="_blank">Lab 5: Shopping Cart</a>
                 </div>
         
                 <div>
-                    <a href="./labs/6/welcome.php">Lab 6: Meme Generator</a>
+                    <a href="./labs/6/welcome.php" target="_blank">Lab 6: Meme Generator</a>
                 </div>
                 
                 <div>
-                    <a href="./labs/7">Lab 7: Meme Generator (Now with Users, Editing, and Deleting!)</a>
+                    <a href="./labs/7" target="_blank">Lab 7: Meme Generator (Now with Users, Editing, and Deleting!)</a>
                 </div>
                 
                 <div>
-                    <a href="./labs/8">Lab 8: Hangman</a>
+                    <a href="./labs/8" target="_blank">Lab 8: Hangman</a>
                 </div>
                 
                 <br/><br/>
@@ -80,15 +80,15 @@
             
             <h1>Practice Midterm</h1>
                 <div>
-                    <a href="./practice/midterm-practice1/index.php">Practice Midterm Program 1: Winter Vacation (PHP/HTML Forms)</a>
+                    <a href="./practice/midterm-practice1/index.php" target="_blank">Practice Midterm Program 1: Winter Vacation (PHP/HTML Forms)</a>
                 </div>
                 
                 <div>
-                    <a href="./practice/midterm-practice2/index.php">Practice Midterm Program 2: Reports (PHP & MySQL)</a>
+                    <a href="./practice/midterm-practice2/index.php" target="_blank">Practice Midterm Program 2: Reports (PHP & MySQL)</a>
                 </div>
 
                 <div>
-                    <a href="./practice/practice-midterm-with-luis/index.php">Letter Search</a>
+                    <a href="./practice/practice-midterm-with-luis/index.php" target="_blank">Letter Search</a>
                 </div>
                 
                 <br/><br/><br/>
