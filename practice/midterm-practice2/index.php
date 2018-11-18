@@ -8,7 +8,7 @@ include "functions.php";
 <!DOCTYPE html>
 <html>
     <head>
-        <title> </title>
+        <title>Reports</title>
     </head>
     <body>
     

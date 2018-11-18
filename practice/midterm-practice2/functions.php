@@ -10,7 +10,8 @@ function printReports()
 function displayBetweenPopulation()
 {
 
-    echo "Cities and towns with a population between 50,000 and 80,000: <br/>";
+    echo "<br/>Cities and towns with a population between 50,000 and 80,000: <br/>";
+    //echo "Cities and towns with a population between 50,000 and 80,000: <br/>";
     
     $dbConn = getDatabaseConnection();
     
