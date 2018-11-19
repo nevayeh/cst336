@@ -4,9 +4,9 @@ function getDatabaseConnection() {
     if (strpos($_SERVER['SERVER_NAME'], "c9users") !== false) {
         // running on cloud9
         $host = "localhost";
-        $username = "utsab";
-        $password = "cst336"; // best practice: define this in a separte file
-        $dbname = "memes_v2"; 
+        $username = "nyeh";
+        $password = "Admin"; // best practice: define this in a separte file
+        $dbname = "meme_lab"; 
     } else {
         // running on Heroku
         $host = "us-cdbr-iron-east-01.cleardb.net";
