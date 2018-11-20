@@ -6,18 +6,17 @@
     </head>
     <body>
         <div>
-            <h1>Homework</h1>
+            
+            <h1>Homeworks</h1>
             
             <a href="./homework/1" target="_blank">Homework 1: HTML and CSS</a><br/>
             <a href="./homework/2" target="_blank">Homework 2: Something Interesting with PHP</a><br/>
             <a href="./homework/3" target="_blank">Homework 3: HTML Forms and PHP</a><br/>
-            <a href="./homework/4" target="_blank">Homework 4: Remake of Homework 2 (or 3) in JavaScript</a>
-        </div>
+            <a href="./homework/4" target="_blank">Homework 4: Rock, Paper, Scissors</a><br/>
             
-        <br/> 
-        <hr>
+            <br/> 
+            <hr>
             
-        <div>
             <h1>Labs</h1>
                 
             <a href="./labs/1" target="_blank">Lab 1: Personal Portfolio</a><br/>
@@ -28,18 +27,18 @@
             <a href="./labs/6/welcome.php" target="_blank">Lab 6: Meme Generator</a><br/>
             <a href="./labs/7" target="_blank">Lab 7: Meme Generator (Now with Users, Editing, and Deleting!)</a><br/>
             <a href="./labs/8" target="_blank">Lab 8: Hangman</a><br/>
-            <a href="./labs/9" target="_blank">Lab 9: AJAX Signup</a>
-        </div>
-
-        <br/>
-        <hr>
+            <a href="./labs/9" target="_blank">Lab 9: AJAX Signup</a><br/>
+    
+            <br/>
+            <hr>
             
-        <div>
-            <h1>Practice Midterm</h1>
+            <h1>Midterm Practices</h1>
             
             <a href="./practice/midterm-practice1/index.php" target="_blank">Practice Midterm Program 1: Winter Vacation (PHP/HTML Forms)</a><br/>
             <a href="./practice/midterm-practice2/index.php" target="_blank">Practice Midterm Program 2: Reports (PHP & MySQL)</a><br/>
-            <a href="./practice/practice-midterm-with-luis/index.php" target="_blank">Letter Search</a>
+            <a href="./practice/practice-midterm-with-luis/index.php" target="_blank">Letter Search</a><br/>
+            
         </div>
+        
     </body>
 </html>

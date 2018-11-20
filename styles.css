@@ -1,7 +1,12 @@
 body
 {
-    background-color: rgb(212, 212, 212);
+    background-color: rgb(200, 200, 200);
     color: rgb(100, 100, 100);
+}
+
+div
+{
+    padding-bottom: 20px;
     padding-left: 20px;
 }
 
@@ -25,5 +30,5 @@ a:visited
 
 a:hover
 {
-    color: rgb(242, 242, 35);
+    color: rgb(242, 242, 0);
 }
