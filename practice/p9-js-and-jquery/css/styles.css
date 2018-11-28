@@ -1,0 +1,31 @@
+body
+{
+    text-align: center;    
+}
+
+h1
+{
+    background-color: rgb(212, 212, 212);
+    padding: 20px;
+}
+
+table
+{
+    border-collapse: collapse;
+    margin: auto;
+}
+
+table, td
+{
+    text-align: right;
+    border: 1px solid black;
+    /*padding: 40px 75px;*/
+    padding: 5px 30px;
+}
+
+th
+{
+    text-align: center;
+    /*padding: 20px 0px;*/
+    padding: 5px 30px;
+}

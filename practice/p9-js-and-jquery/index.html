@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Holiday Shopping Cart</title>
+        <link rel="stylesheet" type="text/css" href="css/styles.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+        
+    </head>
+    <body>
+    
+    <h1>Holiday Shopping</h1>
+    
+    <h2>Cart</h2>
+    
+    <!--<form>-->
+        <table>
+            <tr>
+                <th>Product</th>
+                <th>Unit Price</th>
+                <th>Quantity</th>
+                <th>Total</th>
+            </tr>
+            
+            <tr>
+                <td>Fruit Cake</td>
+                <td>$<span id="unit1Price">30</span></td>
+                <!--<td><input type="number" name="unit1Quant"></td>-->
+                <td><input type="text" id="unit1Quant"></td>
+                <td id="unit1Total">0</td>
+            </tr>
+        
+            <tr>
+                <td>Pinata (Medium Size)</td>
+                <td>$<span id="unit2Price">20</span></td>
+                <!--<td><input type="number" name="unit2Quant"></td>-->
+                <td><input type="text" id="unit2Quant"></td>
+                <td id="unit2Total">0</td>
+            </tr>
+            
+            <tr>
+                <td>Shipping</td>
+                <td></td>
+                <td></td>
+                <td id="shippingPrice">0</td>
+            </tr>
+            
+            <tr>
+                <td>Subtotal</td>
+                <td></td>
+                <td></td>
+                <td id="subtotalPrice">0</td>
+            </tr>
+            
+            <tr>
+                <td>Tax (10%)</td>
+                <td></td>
+                <td></td>
+                <td id="taxPrice">0</td>
+            </tr>
+            
+            <tr>
+                <td>Total</td>
+                <td></td>
+                <td></td>
+                <td id="finalTotal">0</td>
+            </tr>
+            
+        </table>
+        
+        <h2>Shipping & Handling</h2>
+        
+        <input type="radio" name="shippingChoice" id="nextDayShipping" value="15">
+        <label for="nextDayShipping">Next-day Delivery: $15.00</label>
+        <br/>
+        
+        <input type="radio" name="shippingChoice" id="threeDayShipping" value="15">
+        <label for="threeDayShipping">Three-day Delivery: $10.00</label>
+        <br/>
+        
+        <input type="radio" name="shippingChoice" id="regularShipping" value="15">
+        <label for="regularShipping">Regular Shipping (5-8 days): $5.00</label>
+        <br/><br/>
+        
+        <input type="checkbox" name="agreement" id="agreementMessage">
+        <label for="agreementMessage">I accept the terms fo this purchase</label>
+        
+        <br/><br/>
+        
+    <form>
+        
+        <input type="submit" name="submit" value="CONFIRM PURCHASE"/>
+    
+        <br/>
+    
+    </form>
+
+    
+
+    
+        <script src="js/javascript.js"></script>
+    </body>
+</html>
+
