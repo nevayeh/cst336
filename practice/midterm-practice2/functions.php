@@ -2,15 +2,17 @@
 
 function printReports()
 {
+    echo "<div>";
     displayBetweenPopulation();
     displayPopulationGreatestToLeast();
     displayTownsStartingWithS();
+    echo "</div>";
 }
 
 function displayBetweenPopulation()
 {
 
-    echo "<br/>Cities and towns with a population between 50,000 and 80,000: <br/>";
+    echo "Cities and towns with a population between 50,000 and 80,000: <br/>";
     //echo "Cities and towns with a population between 50,000 and 80,000: <br/>";
     
     $dbConn = getDatabaseConnection();
