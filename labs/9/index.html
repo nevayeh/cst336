@@ -20,7 +20,7 @@
         <h1>Sign Up</h1>
         
         <div>
-            <form method="get">
+            <!--<form method="get">-->
                 First Name: <input type="text" id="firstName"/> <br/>
                 Last Name: <input type="text" id="lastName"/> <br/>
                 Email: <input type="text" id="email"/> <br/>
@@ -28,10 +28,14 @@
                 
                 <br/>
                 
-                Zip Code: <input type="text" id="zip" onchange="getZipList()"/> <br/>
-                City: <span id="citySpan"/> <br/>
-                Latitude: <span id="latSpan"/> <br/>
-                Longitude: <span id="longSpan"/> <br/>
+                <!--Zip Code: <input type="text" id="zip" onchange="getZipList()"/> <br/>-->
+                Zip Code: <input type="text" id="zip" onchange="getZipList_jQuery()"/> <br/>
+                City: <span id="citySpan"></span> <br/>
+                Latitude: <span id="latSpan"></span> <br/>
+                Longitude: <span id="longSpan"></span> <br/>
+                <!--City: <div id="cityDiv">City Name</div> <br/>-->
+                <!--Latitude: <div id="latDiv">Change</div> <br/>-->
+                <!--Longitude: <div id="longDiv">Change2</div> <br/>-->
         
                 <br/>
                 
@@ -63,123 +67,15 @@
 
             <!--<form>-->
                 
-                <input type="submit" value="Submit!"/>
+                <!--<input type="submit" value="Submit!"/>-->
+                <input type="button" id="submitButton" value="Submit!" onclick="submit()"/>
             
-            </form>
+            <!--</form>-->
         
         </div>
         
         
-        <!--<script type="text/javascript" src="js/javascript.js"></script>-->
-        
-        
-        <script>
-        //external .js file functions weren't being recognized, so I put the code
-        //in this script tag before the closing body tag
-            function getZipList()
-            {
-                var stateSelected = document.getElementById("zip").value; 
-                http://itcdland.csumb.edu/~milara/ajax/cityInfoByZip.php?zip=93955
-                var url = "https://www.showdeolabs.com/cors?url=http://itcdland.csumb.edu/~milara/ajax/countyList.php?state=ca";
-                
-                var ajax;
-                    if (window.XMLHttpRequest) {
-                        ajax= new XMLHttpRequest();
-                    }
-             
-                ajax.open("GET", url + stateSelected, true);
-                ajax.send();
-                    
-                ajax.onreadystatechange=function() {
-                    if (ajax.readyState==4 && ajax.status==200) {
-                        //alert(ajax.responseText);  //displays value retrieved from PHP program
-            
-                        var data = JSON.parse(ajax.responseText);
-                        document.getElementById("latSpan").innerHTML = data['latitude'];
-                        document.getElementById("longSpan").innerHTML = data['longitude'];
-                    
-                    }
-                }  
-                
-            }
-            
-            
-            function getCountyList()
-            {        
-                var stateSelected = document.getElementById("state").value; 
-                //var url = "http://hosting.csumb.edu/laramiguel/ajax/countyList.php?state="; 
-                var url = "https://www.showdeolabs.com/cors?url=http://itcdland.csumb.edu/~milara/ajax/countyList.php?state=";
-              
-                var ajax;
-                    if (window.XMLHttpRequest) {
-                        ajax= new XMLHttpRequest();
-                    }
-             
-               ajax.open("GET", url + stateSelected, true);
-               ajax.send();
-                    
-                ajax.onreadystatechange=function() {
-                    if (ajax.readyState==4 && ajax.status==200) {
-                        //alert(ajax.responseText);  //displays value retrieved from PHP program
-            
-                        var data = JSON.parse(ajax.responseText);
-                        var countySelected = document.getElementById("county");
-                        countySelected.innerHTML="<option> Select One </option>";
-                                       
-                        for (var i=0; i< data['counties'].length; i++) {
-                            countySelected.innerHTML += "<option>" + data["counties"][i].county + "</option>";
-                        }//endFor
-             
-                    }//endIf 
-                }  
-
-            } //end Function
-            
-            function getCountyList_jQuery() {        
-                $.ajax({
-                    type: "get",
-                    url: "https://www.showdeolabs.com/cors?url=http://hosting.csumb.edu/laramiguel/ajax/countyList.php",
-                    dataType: "json",
-                    data: { "state": $("#state").val() },
-                    success: function(data,status) {
-                        //  alert(data);
-                        $("#county").html("<option> Select One </option>");
-                        for (var i=0; i< data['counties'].length; i++){
-                            $("#county").append("<option>" + data["counties"][i].county + "</option>" );
-                        }
-                    },
-                    complete: function(data,status) { //optional, used for debugging purposes
-                        //alert(status);
-                    }
-                });
-                     
-            }
-
-            $("#username").change( function(){
-                // alert($(this).val()); //showing the username entered, for testing purposes
-                
-                $.ajax({
-                    type: "get",
-                    url: "usernameLookup.php",
-                    data: { "username": $(this).val()},
-                    success: function(data,status) {
-                        //alert(data); //displaying data received, for testing purposes
-                         
-                        if (data == "Available") {
-                            $("#usernameValidation").html("Available!"); 
-                            $("#usernameValidation").css("color","green");
-                        }
-                        else {
-                            $("#usernameValidation").html("Username already taken!");         
-                            $("#usernameValidation").css("color","red");
-                        }  
-                         
-                    } 
-                });
-                
-            });
-            
-        </script>
+        <script type="text/javascript" src="js/javascript.js"></script>
         
     </body>
     
