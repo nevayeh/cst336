@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <title>CST 336</title>
+        <title>CST 336 Homepage</title>
         <link href="styles.css" rel="stylesheet" type="text/css" />
     </head>
     <body>

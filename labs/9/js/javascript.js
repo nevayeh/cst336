@@ -246,12 +246,13 @@ function submit()
     {
         $("#submissionSuccess").html("Good to go!<br/>");
         $("#submissionSuccess").attr("class", "btn btn-success");
-        $("#submissionSuccessIcon").show();
+        $("#submissionSuccess").show();
     }
     else
     {
         displayErrors(submissionErrors);
         $("#submissionSuccess").html("");
+        $("#submissionSuccess").hide();
         
     }
 }
