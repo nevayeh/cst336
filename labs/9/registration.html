@@ -1,0 +1,34 @@
+<form>
+   Username: <input type="text" id="username" /> 
+   <span style="color:red" id="usernameValidation"></span> <br/>
+</form>
+
+<script src="http://code.jquery.com/jquery-1.11.0.min.js"></script>
+<script>
+$("#username").change( function(){
+     //alert($(this).val()); //showing the username entered, for testing purposes
+     console.log("user: " + $(this).val());
+     
+      $.ajax({
+            type: "get",
+            url: "usernameLookup.php",
+            data: { "username": $(this).val()},
+            success: function(data,status) {
+                 //alert(data); //displaying data received, for testing purposes
+                 console.log("data: " + data);
+                 
+                 if (data == "Available") {
+                     $("#usernameValidation").html("Available!"); 
+                     $("#usernameValidation").css("color","green");
+                 }
+                else {
+                        $("#usernameValidation").html("Username already taken!");         
+                        $("#usernameValidation").css("color","red");
+                 }           
+
+                 
+            }
+        });
+
+});
+</script>

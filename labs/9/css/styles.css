@@ -3,9 +3,24 @@ body
     text-align: center;
 }
 
-h1
+#bodyDiv
 {
-    background-color: rgb(212, 212, 212);
-    padding: 20px;
+    background-color: rgb(175, 175, 175);
+    padding-top: 10px;
+    padding-bottom: 50px;
     margin-top: 0px;
 }
+
+h1
+{
+    background-color: rgb(75, 75, 75);
+    padding: 20px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+#submitButton, #submissionSuccess
+{
+    margin-top: 20px;
+}
+

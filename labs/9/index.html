@@ -3,80 +3,44 @@
     <head>
         <title>Sign Up</title>
         <link  href="css/styles.css" rel="stylesheet" type="text/css"/>
-        <!--<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>-->
-        
-        <!--
-            Code in external .js file isnt being recognized for some reason
-            I put an alert at the very top, but it never ran
-            I don't know why this happened, I did what I usually do w/ external .js files
-        -->
-        <!--<script type="text/javascript" src="js/javascript.js"></script>-->
-        <!--<script language="javascript">alert("hi")</script>-->
-
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
         <script src="https://code.jquery.com/jquery-1.11.0.min.js"></script>
-        
     </head>
     <body>
-        <h1>Sign Up</h1>
+        <h1 style="color:white" class="text-center">Sign Up</h1>
         
-        <div>
-            <!--<form method="get">-->
-                First Name: <input type="text" id="firstName"/> <br/>
-                Last Name: <input type="text" id="lastName"/> <br/>
-                Email: <input type="text" id="email"/> <br/>
-                Phone Number: <input type="text" id="phoneNumber"/> <br/>
-                
-                <br/>
-                
-                <!--Zip Code: <input type="text" id="zip" onchange="getZipList()"/> <br/>-->
-                Zip Code: <input type="text" id="zip" onchange="getZipList_jQuery()"/> <br/>
+        <div id="bodyDiv" class="text-center">
+            First Name: <input type="text" id="firstName"/> <br/>
+            Last Name: <input type="text" id="lastName"/> <br/>
+            Email: <input type="text" id="email"/> <br/>
+            Phone Number: <input type="text" id="phoneNumber"/> <br/>
+            
+            <br/>
+            
+            Zip Code: <input type="text" id="zip" onchange="getZipList_jQuery()"/> <br/>
                 City: <span id="citySpan"></span> <br/>
                 Latitude: <span id="latSpan"></span> <br/>
                 Longitude: <span id="longSpan"></span> <br/>
-                <!--City: <div id="cityDiv">City Name</div> <br/>-->
-                <!--Latitude: <div id="latDiv">Change</div> <br/>-->
-                <!--Longitude: <div id="longDiv">Change2</div> <br/>-->
-        
-                <br/>
+                <div id="zipValidation" class="badge badge-danger"></div> <br/>
+    
+            State: <input type="text" id="state" onchange="getCountyList_jQuery()"/> <br/>
+            County: <select id="county"></select> <br/>
+                <div id="countyValidation" class="badge badge-danger"></div> <br/>
                 
-                State: 
-                <!--<select id="state" onchange="getCountyList()">-->
-                <!--    <option value="Select One">Select One</option>-->
-                <!--    <option value="California">California</option>-->
-                <!--    <option value="New York">New York</option>-->
-                <!--    <option value="Texas">Texas</option>-->
-                <!--    <option value="Virginia">Virginia</option>-->
-                <!--</select> <br/>-->
-                
-                <!--<input type="text" id="state" onchange="getCountyList()"/> <br/>-->
-                <input type="text" id="state" onchange="getCountyList_jQuery()"/> <br/>
+            Username: <input type="text" id="username"/>
+                <span id="usernameValidation"></span> <br/>
             
-                County: 
-                    <select id="county"></select> <br/>
-                    
-                    
-                <br/>
-                    
-                Username: <input type="text" id="username"/>
-                <span style="color:red" id="usernameValidation"></span> <br/>
+            Password: <input type="password" id="password"/> 
+                <div id="passwordValidation" class="badge badge-danger"></div><br/>
+            Confirm Password: <input type="password" id="passwordConfirm"/> <br/>
                 
-                
-                Password: <input type="text" id="password"/> <br/>
-                Confirm Password: <input type="text" id="passwordConfirm"/> <br/>
-                
-
-            <!--<form>-->
-                
-                <!--<input type="submit" value="Submit!"/>-->
-                <input type="button" id="submitButton" value="Submit!" onclick="submit()"/>
-            
-            <!--</form>-->
+            <button id="submitButton" type="button" class="btn btn-primary" onclick="submit()">Submit</button>
         
+            <div id="submitErrorsDiv"></div>
+            <div id="submissionSuccess"></div>
+            
         </div>
         
-        
         <script type="text/javascript" src="js/javascript.js"></script>
-        
     </body>
-    
 </html>
