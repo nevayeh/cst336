@@ -1,0 +1,45 @@
+<!--http://cst336.herokuapp.com/projects/csumb_quiz/index.php-->
+
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Quiz</title>
+        <link rel="stylesheet" type="text/css" href="css/styles.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    </head>
+    <body onload="quiz()">
+    <!--<body>-->
+        <div>
+            <h1 id="welcomeUserHeading">Welcome!</h1>
+            
+            <h1>Quiz</h1>
+            
+            What year was CSUMB founded?
+            <input type="text" id="answer1"/>
+            
+            <div id="question1Score"></div>
+            
+            <br/><br/>
+            
+            What is the name of CSUMB's mascot? <br/>
+            <input type="radio" name="answer2" id="mascotOtto" value="otto"/>
+            <label for="mascotOtto">Otto</label> <br/>
+            
+            <input type="radio" name="answer2" id="mascotAlbus" value="albus"/>
+            <label for="mascotAlbus">Albus</label> <br/>
+            
+            <input type="radio" name="answer2" id="mascotMonteRey" value="monte"/>
+            <label for="mascotMonteRey">Monte Rey</label> <br/><br/>
+            
+            <div id="question2Score"></div>
+            
+            <button type="button" id="submitButton" value="Submit" onclick="submitQuiz()">Submit</button>
+            
+            
+            
+        </div>
+        
+        <script src="js/javascript.js"></script>
+        
+    </body>
+</html>

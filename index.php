@@ -28,6 +28,7 @@
             <a href="./labs/7" target="_blank">Lab 7: Meme Generator (Now with Users, Editing, and Deleting!)</a><br/>
             <a href="./labs/8" target="_blank">Lab 8: Hangman</a><br/>
             <a href="./labs/9" target="_blank">Lab 9: AJAX Signup</a><br/>
+            <a href="./labs/10" target="_blank">Lab 10: Pet Adoption</a><br/>
     
             <br/>
             <hr>

@@ -1,0 +1,28 @@
+<!--http://cst336.herokuapp.com/projects/csumb_quiz/index.php-->
+
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Login</title>
+        <link rel="stylesheet" type="text/css" href="css/styles.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    </head>
+    <body>
+        <div>
+            <h1>Login</h1>
+            <h2>Credentials required before submitting form.</h2>
+            You can log in using usernames <strong>user_1</strong> or <strong>user_2</strong>.
+            The password is <strong>s3cr3t</strong> <br/><br/>
+            <input type="text" id="username" placeholder="Username"/> <br/>
+            <input type="password" id="password" placeholder="Password"/> <br/>
+            <!--<button id="loginButton" type="button" class="btn btn-primary" onclick="submit()">Submit</button>-->
+            
+            <span id="userValidationMessage"></span> <br/>
+            
+            <button id="loginButton" type="button" onclick="login()">Submit</button>
+        </div>
+        
+        <script src="js/javascript.js"></script>
+        
+    </body>
+</html>

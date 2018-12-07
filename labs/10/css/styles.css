@@ -1,0 +1,114 @@
+body
+{
+    text-align: center;
+}
+
+.activeNav
+{
+    border-radius: 15px;
+    background-color: rgb(80, 80, 255);
+    padding: 5px 0px;
+}
+
+#adoptionPageLinkButton
+{
+    font-size: 2em;
+    width: 50%;
+    margin-top: 20px;
+    margin-bottom: 50px;
+}
+
+.petInfo
+{
+    position: relative;
+}
+
+.petModalButton
+{
+    color: blue;
+    text-decoration: underline;
+    background: transparent;
+    border: none !important;
+}
+
+.adoptButton
+{
+    margin-top: 10px;
+    position: absolute;
+    right: 20px;
+}
+
+button:focus
+{
+    border: none;
+    outline: none;
+}
+
+.petInfo
+{
+    text-align: left;
+    border-radius: 15px;
+    border: 2px rgb(12, 12, 12) solid;
+    padding: 10px 30px;
+    margin-left: 15%;
+    margin-right: 15%;
+    font-size: 20px;
+}
+
+#petImgDiv, #petDescDiv
+{
+    display:inline-block;
+}
+
+#petDescDiv
+{
+    padding-left: 10px;
+    text-align: left;
+}
+
+.carousel
+{
+    position: relative;
+    background-color: gray;
+    padding: 30px;
+}
+
+.carousel-inner > .carousel-item > img
+{
+    width: 50%;
+    height: 50%;
+}
+
+.carousel-indicators
+{
+    position: absolute;
+    bottom: 0px;
+}
+
+/* Inactive indicator color */
+.carousel-indicators li
+{
+    background-color: white;
+}
+
+/* Active indicator color */
+.carousel-indicators .active
+{
+    background-color: rgb(80, 80, 80);
+}
+
+.carousel-control-next
+{
+    right: 15%;
+}
+
+.carousel-control-prev
+{
+    left: 15%;
+}
+
+.carousel-item > .carousel-caption
+{
+    position: absolute;
+    bottom: -10px;
+}
