@@ -39,6 +39,12 @@
             <a href="./practice/midterm-practice2/index.php" target="_blank">Practice Midterm Program 2: Reports (PHP & MySQL)</a><br/>
             <a href="./practice/practice-midterm-with-luis/index.php" target="_blank">Letter Search</a><br/>
             
+            <br/>
+            <hr>
+            
+            <h1>Final Project</h1>
+            <a href="https://cst336-nevayeh-final.herokuapp.com/index.php" target="_blank">Recipe Search</a>
+            
         </div>
         
     </body>
